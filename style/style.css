@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(49, 45, 51);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(43, 42, 43);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+}
+
+nav h2 {
+    color: whitesmoke;
+    margin-left: 5rem;
+}
+
+nav ul {
+    margin-right: 5rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 12px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+nav a:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 5px 5px rgb(116, 119, 116, .3);
+}
+
+.jumbotron {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-image: url(../img/bg1.jpg);
+    color: #ddd;
+    background-position: 0 bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron h1 {
+    padding-top: 200px;
+}
+
+.container-md {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px rgb(116, 119, 116, .3);
+
+}
+
+.about {
+    text-align: center;
+    margin-top: -80px;
+    height: auto;
+}
+
+.about h3 {
+    padding-top: 12px;
+    color: rgb(43, 42, 43);
+}
+
+.about hr {
+    width: 150px;
+    border: 2px solid rgba(43, 42, 43, .3);
+    border-radius: 10px;
+}
+
+.about-content-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.about-content {
+    padding: 20px 10px 0px 10px;
+    color: rgb(43, 42, 43);
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.container-package {
+    max-width: 1000px;
+    height: auto;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px rgb(116, 119, 116, .3);
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.container-package h2 {
+    text-align: center;
+    padding: 24px 0px 0px;
+}
+
+.container-package hr {
+    width: 250px;
+    border: 2px solid rgba(43, 42, 43, .3);
+    border-radius: 10px;
+}
+
+.row-package {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+
+}
+
+.col-package-left {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    text-align: right;
+}
+
+.col-package-right {
+    display: flex;
+    align-content: center;
+}
+
+.col-package-right img,
+.col-package-left img {
+    border-radius: 50%;
+    width: 20%;
+    padding: 10px;
+}
+
+.col-package-right p,
+.col-package-left p {
+    width: 80%;
+    padding: 10px 15px;
+    font-size: small;
+}
+
+.col-package-right p span,
+.col-package-left p span {
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+.container-highlight {
+    max-width: 1000px;
+    height: auto;
+    margin: 50px auto;
+    box-shadow: 1px 1px 5px 5px rgb(116, 119, 116, .3);
+    background-color: rgb(49, 45, 51);
+}
+
+.row-highlight {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-highlight-right {
+    color: white;
+    max-width: 50%;
+    text-align: justify;
+    padding: 0px 10px;
+    height: auto;
+}
+
+.col-highlight-left {
+    max-width: 50%;
+}
+
+.col-highlight-left img:hover {
+    box-shadow: 2px 20px 20px rgba(205, 207, 205, 0.3);
+    transition: ease-in-out;
+    transform: scale(1.05);
+}
+
+.container-contact {
+    width: 100%;
+    height: 500px;
+    background-color: #605b64;
+}
+
+.row-contact {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.col-contact {
+    max-width: 33%;
+    color: whitesmoke;
+}
+
+.col-contact input,
+.col-contact textarea {
+    border-radius: 10px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+}
+
+.col-contact img {
+    box-shadow: 1px 5px 5px rgba(205, 207, 205, 0.3);
+}
+
+.col-contact a img {
+    border-radius: 50%;
+}
+
+.col-contact iframe {
+    border-radius: 10px;
+}
+
+.col-contact .button {
+    background-color: #4b474e;
+    padding: 2px 5px;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.col-contact input,
+.col-contact textarea {
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    background-color: #4b474e;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    nav {
+        flex-wrap: nowrap;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    nav ul li {
+        margin-right: 0px;
+        font-size: xx-small;
+    }
+
+    nav h2 {
+        margin: 0px 0px 0px 20px;
+        font-size: small;
+
+    }
+
+    nav ul li {}
+
+    .jumbotron h1 {
+        font-size: x-large;
+        padding: 150px 15px 0px 15px;
+    }
+
+    .jumbotron p {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .container-md {
+        max-width: 95%;
+    }
+
+    .about-content-container {
+        flex-wrap: wrap;
+    }
+
+    .container-package {
+        max-width: 95%;
+    }
+
+    .row-package {
+        flex-wrap: wrap;
+    }
+
+    .col-package-left,
+    .col-package-right {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .col-package-right p,
+    .col-package-left p {
+        width: 60%;
+        padding: 10px 15px;
+        font-size: small;
+        text-align: center;
+    }
+
+    .col-package-right img,
+    .col-package-left img {
+        border-radius: 50%;
+        width: 30%;
+        padding: 10px;
+    }
+
+    .row-highlight {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col-highlight-left img {
+        max-width: 100%;
+    }
+
+    .col-highlight-left,
+    .col-highlight-right {
+        max-width: 90%;
+    }
+
+    .col-highlight-right {
+        text-size: small;
+    }
+
+    .container-contact {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .row-contact {
+        flex-wrap: wrap;
+    }
+
+    .col-contact {
+        min-width: 90%;
+    }
+
+    footer {
+        font-size: small;
+    }
+
+}
